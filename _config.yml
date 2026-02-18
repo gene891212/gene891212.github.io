@@ -1,20 +1,29 @@
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # 可選: "air", "aqua", "contrast", "dark" 等
+minimal_mistakes_skin: "default" # 可選: aqua, air, contrast, dark, dirt, sunrise
 
-# 個人資訊 (會顯示在側邊欄)
+# 語言與側邊欄
+locale: "zh-TW"
 author:
   name   : "謝明"
-  avatar : "https://github.com/gene891212.png" # 自動抓你的 GitHub 頭像
-  bio    : "這是我的專案展示空間"
+  avatar : "https://github.com/gene891212.png"
+  bio    : "GitHub 專案展示與技術筆記"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gene891212"
 
-# 讓 Liquid 語法能正確抓取資料
-repository: "gene891212/gene891212.github.io"
+# 關閉自動生成的 Recent Posts
+paginate: 0
+home_archive:
+  type: list
+  path: /posts/
 
+# 必須載入的外掛
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
-  - jekyll-github-metadata # 確保這個也在，才能抓取你的 Repo 列表
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+
+# 讀取數據
+github: [metadata]
