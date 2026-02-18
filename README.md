@@ -1,50 +1,8 @@
-## Welcome to GitHub Pages
+# gene891212.github.io
 
-You can use the [editor on GitHub](https://github.com/gene891212/gene891212.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+這是我的個人作品集與專案展示主頁的原始碼。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 瀏覽網頁
 
-## 我的 GitHub 專案清單
-
-<ul>
-  {% for repo in site.github.public_repositories %}
-    {% if repo.has_pages and repo.name != "gene891212.github.io" %}
-      <li>
-        <strong><a href="https://gene891212.github.io/{{ repo.name }}">{{ repo.name }}</a></strong>: 
-        {{ repo.description }}
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gene891212/gene891212.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+你可以透過以下網址查看正式網頁：
+👉 [https://gene891212.github.io/](https://gene891212.github.io/)

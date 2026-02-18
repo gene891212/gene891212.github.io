@@ -1,1 +1,15 @@
-theme: jekyll-theme-cayman
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # 可選: "air", "aqua", "contrast", "dark" 等
+
+# 個人資訊 (會顯示在側邊欄)
+author:
+  name   : "謝明"
+  avatar : "https://github.com/gene891212.png" # 自動抓你的 GitHub 頭像
+  bio    : "這是我的專案展示空間"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gene891212"
+
+# 讓 Liquid 語法能正確抓取資料
+repository: "gene891212/gene891212.github.io"
