@@ -13,3 +13,8 @@ author:
 
 # 讓 Liquid 語法能正確抓取資料
 repository: "gene891212/gene891212.github.io"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-github-metadata # 確保這個也在，才能抓取你的 Repo 列表
