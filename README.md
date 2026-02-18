@@ -4,6 +4,19 @@ You can use the [editor on GitHub](https://github.com/gene891212/gene891212.gith
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+## 我的 GitHub 專案清單
+
+<ul>
+  {% for repo in site.github.public_repositories %}
+    {% if repo.has_pages and repo.name != "gene891212.github.io" %}
+      <li>
+        <strong><a href="https://gene891212.github.io/{{ repo.name }}">{{ repo.name }}</a></strong>: 
+        {{ repo.description }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
