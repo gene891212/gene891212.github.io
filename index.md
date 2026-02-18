@@ -1,9 +1,10 @@
 ---
 layout: home
 author_profile: true
+title: "我的專案列表"
 ---
 
-## 我的專案列表
+## Github Page
 
 <div class="grid__wrapper custom-repo-grid">
   {% for repo in site.github.public_repositories %}
