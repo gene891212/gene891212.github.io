@@ -1,3 +1,8 @@
+# 網站基礎設定
+url: "https://gene891212.github.io"
+baseurl: ""
+repository: "gene891212/gene891212.github.io"
+
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # 可選: aqua, air, contrast, dark, dirt, sunrise
 
