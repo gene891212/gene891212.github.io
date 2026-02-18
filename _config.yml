@@ -1,34 +1,20 @@
-# 網站基礎設定
-url: "https://gene891212.github.io"
-baseurl: ""
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 repository: "gene891212/gene891212.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # 可選: aqua, air, contrast, dark, dirt, sunrise
-
-# 語言與側邊欄
-locale: "zh-TW"
 author:
-  name   : "謝明"
-  avatar : "https://github.com/gene891212.png"
-  bio    : "GitHub 專案展示與技術筆記"
+  name: "謝明"
+  avatar: "https://github.com/gene891212.png"
+  bio: "GitHub 專案展示與技術筆記"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gene891212"
 
-# 關閉自動生成的 Recent Posts
-paginate: 0
-home_archive:
-  type: list
-  path: /posts/
-
-# 必須載入的外掛
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-github-metadata
   - jekyll-seo-tag
 
-# 讀取數據
 github: [metadata]
