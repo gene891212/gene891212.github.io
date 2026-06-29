@@ -4,5 +4,6 @@
 
 ## 瀏覽網頁
 
-你可以透過以下網址查看正式網頁：
-👉 [https://gene891212.github.io/](https://gene891212.github.io/)
+可以透過以下網址查看正式網頁：
+
+[https://gene891212.github.io/](https://gene891212.github.io/)
